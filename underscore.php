@@ -9,11 +9,14 @@
  */
 
 // Returns an instance of __ for OO-style calls
+//Comment our for laravel internal using.
+/*
 function __($item=null) {
   $__ = new __;
   if(func_num_args() > 0) $__->_wrapped = $item;
   return $__;
 }
+*/
 
 // Underscore.php
 class __ {
